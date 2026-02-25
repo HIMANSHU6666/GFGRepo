@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/html_css/style.css">
+</head>
+
+<body id="homepage">
+    <nav>
+        <div class="logo"><img src="OIP.jpeg" alt="" srcset=""></div>
+        <div class="menu">
+            <ul >
+                <li><a href="/html_css/index/index.html">
+                        <h2>Home</h2>
+                    </a></li>
+                <li><a href="/html_css/about/about.html">
+                        <h2>About</h2>
+                    </a></li>
+                <li><a href="/html_css/service/service.html">
+                        <h2>Service</h2>
+                    </a></li>
+                <li><a href="/html_css/design/design.html">
+                        <h2>Design</h2>
+                    </a></li>
+                <li><a href="/html_css/contact/contact.html">
+                        <h2>Contact</h2>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="search_bar" >
+            <input type="search" name="" id="" 
+                style="border-bottom-left-radius: 8px; border-top-left-radius: 8px; border: 3px solid orangered; border-right: none; color: rgb(16, 1, 1);   ">
+                <img src="magnifying-glass.png" alt="" srcset="" style="width: 20px; height:31px; background-color: white; border:3px solid orangered; border-left: none; " >
+            <input type="submit" value="search"
+                style="  font-size: large;  border-bottom-right-radius: 8px; border-top-right-radius: 8px; width: 80px; background-color: orangered; ">
+        </div>
+        <div style="background-color: transparent; width: fit-content; padding: 5px;">
+            <button id="dark" style="background-color: black; color: aliceblue; width: fit-content; padding: 5px;">Dark</button>
+            <button id="light" style="background-color: antiquewhite; color: black; width: fit-content; padding: 5px;">Light </button>
+    
+        </div>
+         
+    </nav>
+    <main>
+        <div class="content1">
+            <span>
+                <h2>Web Design &</h2>
+                <h1 style="color: orangered;">Development </h1>
+                <h2>Course</h2>
+
+            </span>
+            <br>
+            <br>
+            <h3 style="font-size: larger;">Web Design is a specialisation of the design stream. They also use HTML, CSS,
+                WYSIWYG editing software, markup validators etc., <br>to create design elements. </h3>
+            <br>
+            <br>
+
+            <button type="button"
+                style="background-color: orangered; padding: 10px; border-radius: 10px; border: none;"><strong>JOIN
+                    US</strong></button>
+        </div>
+        <div class="login">
+            <div class="loginhere" style="display: flex; justify-self:flex-start ;"><span
+                    style="color: orangered; ">Login Here</span></div>
+            <br>
+            <br>
+            <input type="email" required name="" id="" placeholder="Enter Email Here"
+                style="height:50%; border: none; background-color: transparent; border-bottom: 2px solid orangered;">
+            <br>
+            <br>
+            <input type="password" required name="" id="" placeholder="Enter Password Here"
+                style="height:50%;border: none; background-color: transparent; border-bottom: 2px solid orangered;">
+            <br>
+
+            <br>
+            <div class="button" style="display: flex; justify-content: center; align-items: center;">
+                <button
+                    style="background-color: transparent; border: 2px solid white; padding: 10px; width: 100px; border-radius: 8px; background-color: orangered;">
+                    <h3>Log In</h3>
+                </button>
+            </div>
+
+
+            <br>
+            <br>
+            <span class="spin"><a href="">
+                    <h6>Don't have an accout? </h6>
+                </a>
+            </span>
+            <span class="spin"><a href="">
+                    <h6 style="display: inline ; color: orangered;">Sign up</h6>
+                    <h6 style="display: inline;">here</h6>
+                </a>
+            </span>
+
+            <br><br>
+            <p class="spin">Log in with</p>
+            <div class="account">
+                
+            </div>
+
+        </div>
+    </main>
+    <script>
+        let redBtn = (document.getElementById("light").onclick = handleClick("#393c43"));
+        let greenBtn = (document.getElementById("dark").onclick =handleClick("black"));
+
+        function handleClick(color){
+            return function(){
+            document.body.style.backgroundColor=color;
+            }
+        }
+    </script>
+    
+
+</body>
+
+</html>

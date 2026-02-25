@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/html_css/style.css">
+    <style>
+        form >input , textarea{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            height:12%;
+            width: 60%;
+            border-radius: 5px;
+            border: none;
+            padding: 15px;
+            color: gray;
+        }
+    </style>
+</head>
+<body id="contact" style="width: 100vw; height: 100vh; background-color: rgb(32, 77, 79);">
+     <nav>
+        <div class="logo"><img src="/html_css/index/OIP.jpeg" alt="" srcset=""></div>
+        <div class="menu">
+            <ul style="display: flex; justify-content: space-between; align-items: center;">
+                <li><a href="/html_css/index/index.html">
+                        <h2>Home</h2>
+                    </a></li>
+                <li><a href="/html_css/about/about.html">
+                        <h2>About</h2>
+                    </a></li>
+                <li><a href="/html_css/service/service.html">
+                        <h2>Service</h2>
+                    </a></li>
+                <li><a href="/html_css/design/design.html">
+                        <h2>Design</h2>
+                    </a></li>
+                <li><a href="/html_css/contact/contact.html">
+                        <h2>Contact</h2>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="search_bar" >
+            <input type="search" name="" id=""
+                style="border-bottom-left-radius: 8px; border-top-left-radius: 8px; border: 3px solid orangered; color: rgb(16, 1, 1);">
+            <input type="submit" value="search"
+                style=" font-size: large;  border-bottom-right-radius: 8px; border-top-right-radius: 8px; width: 80px; background-color: orangered; ">
+        </div>
+    </nav>
+    <main style="width: 100vw;height: 90vh; padding: 60px; display: flex; justify-content: center;">
+        <div class="part1" style=" display: flex; flex-direction: column; align-items: center ; justify-content: center; width: 40%; height: 100%; border-top-left-radius: 10%; border-bottom-left-radius: 10%; background-color: rgb(45, 102, 102);">
+            <h1 style="text-align: center;"><strong>Let's Chat</strong></h1> <br>
+            <h3 style="text-align: center;">Whether you have a question, want to <br> start a project or simply want to connect.</h3>
+            <br><br><br>
+            <h3 style="text-align: center;">Feel free to send me a message in the <br> contact form </h3>
+        </div>
+        <div class="part2" style="width: 40%; height: 100%; background-color: #4545aa; border-bottom-right-radius: 10%; border-top-right-radius: 10%;">
+            <h1 style="text-align: center; padding: 20px;"><strong>Contact</strong></h1>
+            <br>
+            <form action="" method="get" style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; height: 80%;">
+                <label for="required" style=" margin-left: -50%; ">*Required</label>
+                <input type="text" name="" id="" placeholder="Name *" required>
+                <input type="email" name="" id="" placeholder="Email *" required>
+                <input type="text" name="" id="" placeholder="Company">
+                <input type="tel" name="" id="" placeholder="Phone *" required>
+                <textarea name="" id="" placeholder="Message" rows="3" ></textarea>
+                <br>
+                <input type="submit" value="SUBMIT" style="height: fit-content; width: fit-content; background-color: cadetblue; padding: 15px; color: azure;" >
+            </form>
+        </div>
+    </main>
+</body>
+</html>
